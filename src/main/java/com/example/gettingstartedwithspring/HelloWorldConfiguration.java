@@ -22,6 +22,16 @@ public class HelloWorldConfiguration {
 	}
 	
 	@Bean
+	public int age() {
+		return 16;
+	}
+	
+	public Person person2MethodCall() {
+		return new Person(name(), age(), Address());
+		
+	}
+	
+	@Bean
 	public Address address() {
 		return new Address("santo", "thomas");
 	}
