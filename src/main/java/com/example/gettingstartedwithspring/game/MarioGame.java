@@ -1,6 +1,6 @@
-package com.example.gettingstartedwithspring;
+package com.example.gettingstartedwithspring.game;
 
-public class SuperContraGame implements GameConsole{
+public class MarioGame implements GameConsole{
 
 	public void up() {
 		System.out.println("Jump");
@@ -18,4 +18,5 @@ public class SuperContraGame implements GameConsole{
 	public void right() {
 		System.out.println("Move Forward");
 	}
+	
 }

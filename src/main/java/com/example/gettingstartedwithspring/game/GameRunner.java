@@ -1,4 +1,4 @@
-package com.example.gettingstartedwithspring;
+package com.example.gettingstartedwithspring.game;
 
 public class GameRunner {
 

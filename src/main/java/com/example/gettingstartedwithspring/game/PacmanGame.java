@@ -1,6 +1,6 @@
-package com.example.gettingstartedwithspring;
+package com.example.gettingstartedwithspring.game;
 
-public class PacmanGame {
+public class PacmanGame implements GameConsole{
 	
 	public void up() {
 		System.out.println("Move Up");
